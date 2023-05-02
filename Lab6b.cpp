@@ -3,8 +3,8 @@
 
 using namespace std;
 
-int d20Dice(double num1);
-int d4Dice(double num2);
+int d20Dice(int num1);
+int d4Dice(int num2);
 
 int main()
 {
@@ -30,11 +30,11 @@ int d20Dice(int num1 )
 {
 	int d20roll;
 	d20roll = rand() % 20 + 1;
-	return d20Dice;
+	return d20roll;
 }
 int d4Dice(int num2)
 {
 	int d4roll;
 	d4roll = rand() % 4 + 1;
-	return d4Dice;
+	return d4roll;
 }
